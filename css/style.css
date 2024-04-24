@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "texto";
+  src: url("C:/Users/nacho/Downloads/FRONTEND MENTOR/NEWBIE/1/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "titulos";
+  src: url("C:/Users/nacho/Downloads/FRONTEND MENTOR/NEWBIE/1/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainArticle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 700px;
+  height: 1580px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  margin-top: 40px;
+  border-radius: 20px;
+  margin-bottom: 70px;
+}
+.preparacion {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  height: 165px;
+  background-color: #fff1fa;
+  border-radius: 10px;
+}
+
+img {
+  width: 635px;
+  margin: 35px 0 20px 0;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #f2e4d8;
+}
+.ingredients h2 {
+  padding: 30px 0 20px 0;
+}
+.ingredients {
+  width: 630px;
+  border-bottom: 1px solid #ebebeb;
+  height: 260px;
+}
+.Listingredients {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 550px;
+  padding-left: 20px;
+}
+
+li::marker {
+  color: #975f36;
+  font-weight: bold;
+}
+
+p,
+li {
+  font-family: "texto";
+}
+h1 {
+  font-family: "titulos";
+  font-size: 37px;
+}
+h2 {
+  font-family: "titulos";
+  color: #975f36;
+}
+.preparacion h2 {
+  font-family: "texto";
+  font-size: 20px;
+  color: #743253;
+  margin: 20px 0px 10px 30px;
+}
+.itemList::marker {
+  color: #743253;
+}
+.itemList strong {
+  color: #464343;
+}
+.itemList {
+  padding: 5px;
+}
+
+.list {
+  margin-left: 55px;
+  padding-bottom: 10px;
+}
+
+.heroDiv p {
+  margin: 25px 0 25px 0;
+}
+
+.Listingredients li {
+  padding: 5px;
+}
+
+.instructions {
+  width: 630px;
+  border-bottom: 1px solid #ebebeb;
+  height: 370px;
+}
+
+.instructions h2 {
+  padding: 20px 0 20px 0;
+}
+
+.listIntructions li {
+  padding: 6px;
+}
+.listIntructions {
+  padding-left: 20px;
+}
+
+.nutrition {
+  width: 630px;
+}
+.nutrition p {
+  padding: 0 0 30px 0;
+}
+
+.nutrition h2 {
+  padding: 20px 0 20px 0;
+}
+.tabla {
+  font-family: "texto";
+  width: 100%;
+  border: 1px solid #ffffff;
+  border-collapse: collapse;
+}
+.tabla span {
+  color: #975f36;
+  font-weight: bold;
+}
+
+td {
+  border-bottom: 1px solid rgb(223, 223, 223);
+  padding: 5px;
+}
+
+.fat {
+  border: none;
+}
